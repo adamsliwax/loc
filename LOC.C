@@ -41,16 +41,16 @@ main()
         if (len > 6) { correct=1; printf("Too long!\r\n"); }
         if (len < 6) { correct=1; printf("More chars!\r\n"); }
         if ( !(isdigit(A[2]) && isdigit(A[3]))) {
-                correct=1; 
-   printf("Characters [%c] or/and [%c] arn't digits!\r\n",A[2],A[3]);
+           correct=1; 
+           printf("Characters [%c] or/and [%c] arn't digits!\r\n",A[2],A[3]);
         }
         if ( !(isupper(A[0]) && isupper(A[1]))) {
-                correct=1; 
-   printf("Characters [%c] or/and [%c] arn't big leters!\r\n",A[0],A[1]);
+           correct=1; 
+           printf("Characters [%c] or/and [%c] arn't big leters!\r\n",A[0],A[1]);
         }
         if ( !(islower(A[4]) && islower(A[5]))) {
-                correct=1; 
-   printf("Characters [%c] or/and [%c] arn't small leters!\r\n",A[4],A[5]);
+           correct=1; 
+           printf("Characters [%c] or/and [%c] arn't small leters!\r\n",A[4],A[5]);
         } 
     }
 /* ------ LONGITUDE -------------- */    
