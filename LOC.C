@@ -25,6 +25,9 @@ char A[]= {'J','O','9','0','i','e'};
 
 main()
 {
+    printf("Input QTH locator, only six chars, two big chars, two numbers and two small chars,\r\n");
+    printf("example : JI90ie \r\n");
+    gets(A);
 /* ------ LONGITUDE -------------- */    
     step1=(A[0]-65) * 20;
     step2=(A[2]-48)*2;
